@@ -1,0 +1,42 @@
+body {
+  background: #9c9; }
+
+.clock {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  border-radius: 115px;
+  border: 15px solid #f96;
+  background: white;
+  position: relative; }
+  .clock .pointer {
+    position: absolute;
+    transform-origin: 50% 90%;
+    left: 47%; }
+  .clock #hours {
+    width: 5px;
+    top: 30%;
+    background: black;
+    height: 50px; }
+  .clock #minutes {
+    width: 4px;
+    top: 21%;
+    background: gray;
+    height: 70px; }
+  .clock #second {
+    width: 2px;
+    top: 18%;
+    background: red;
+    height: 76px; }
+  .clock .num div {
+    width: 194px;
+    height: 14px;
+    position: absolute;
+    left: 7px;
+    top: 46%; }
+  .clock .num span {
+    display: block;
+    width: 20px;
+    height: 20px; }
+
+/*# sourceMappingURL=clock.css.map */
